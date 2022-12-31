@@ -27,5 +27,24 @@ public class TiposVariaveis {
 
         System.out.println(nomeCompleto);
 
+        // teste de concatenação
+
+        String concatenacao = "?";
+
+        concatenacao = 1+1+1+"1";
+        System.out.println("teste 1: " + concatenacao);
+
+        concatenacao = 1+"1"+1+1;
+        System.out.println("teste 2: " + concatenacao);
+
+        concatenacao = 1+"1"+1+"1";
+        System.out.println("teste 3: " + concatenacao);
+
+        concatenacao = "1"+1+1+1;
+        System.out.println("teste 4: " + concatenacao);
+
+        concatenacao = "1"+(1+1+1);
+        System.out.println("teste 5: " + concatenacao);
+
     }
 }
